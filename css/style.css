@@ -1,6 +1,6 @@
 body {
 	font-family: Calibri, Candara, Arial, sans-serif;
-	font-size: 1.0em;
+	font-size: 1.6em;
 	color: #000;
 	margin-top: 0px;
 }
@@ -88,9 +88,9 @@ header {
 
 .toolbar-container {
 	display: flex;
-	display: none;
 
 }
+
 .toolbar-btn {
 	border: 1px solid #0C395F;
 	padding-top: 46px;
@@ -102,7 +102,7 @@ header {
 	font-family: inherit;
 }
 .toolbar-btn p {
-	font-size: 1.125rem;
+	font-size: 1.8rem;
 	font-weight: 600;
 	color: #36A9E1;
 	margin: 0;
