@@ -96,10 +96,8 @@ header {
 
 .toolbar-btn {
 	border: 1px solid #0C395F;
-	padding-top: 46px;
 	padding-right: 30px;
 	padding-left: 11px;
-	padding-bottom: 6px;
 	background-color: #0C395F;
 	flex: 1 1 auto; /* flex-grow, flex-shrink, flex-basis*/
 	font-family: inherit;
