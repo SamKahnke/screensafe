@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<!-- TemplateBeginEditable name="title" -->
+<title>retry</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="navTopic" type="text" value="nav-topic1" -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="../scripts/jqueryui/jquery-ui.min.css" />
+	<!--<link href="../css/bootstrap.min.css" rel="stylesheet">-->
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body id="@@(navTopic)@@">
+	
+
+<a href="#content" class="sr-only">skip to content</a>
+<div class="body-container">
+	
+  <header class="navbar-fixed-top">
+	  
+    <div class="logo"><img src="../images/logo-screen-safe.png" alt="" /></div><!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>-->
+	  
+	<div class="toolbar-container" role="toolbar">
+    <a href="../index.htm">
+    <button id="topic1" class="toolbar-btn"  aria-label="Program Details">
+      <p>Program Details</p>
+    </button>
+    </a>
+    <a href="../team.htm">
+    <button id="topic2" class="toolbar-btn"  aria-label="Our Team">
+    <p>Our Team</p>
+    </button>
+    </a>
+		 <a href="../why-donate.htm">
+    <button id="topic3" class="toolbar-btn"  aria-label="Our Team">
+    <p>Why Donate</p>
+    </button>
+    </a>
+    <a href="../contact.htm">
+    <button id="topic4"  class="toolbar-btn" aria-label="Contact">
+    <p>Contact</p>
+    </button>
+    </a>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><button id="topic5" class="toolbar-btn" aria-label="Donate">
+    
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="EED6CM9B4NR6C">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+    </button></form>
+    													
+											 
+  </div>
+  </header>
+	
+  <!-- TemplateBeginEditable name="content" --><div id="content" class="slide-container" role="main">
+  
+    <div class="text-container">
+				<h1>Who Pays for Hospice Care?</h1>
+				<ul>
+				  <li class="text-bullet">
+				    Medicare hospice benefit-100%</li>
+					<li class="text-bullet">Medical Assistance hospice benefit-100%</li>
+				  <li class="text-bullet"> MN Care</li>
+				 <li class="text-bullet">Most Health Plans</li>
+				    <li class="text-bullet">Private Pay</li>
+				    <li class="text-bullet">Several Long Term Care Insurances
+				    
+			      </li>
+			  </ul>
+			</div>
+	  <div class="img-container">
+				<img src="../images/money.png"  alt="Brain">
+			</div>
+	  
+    
+  </div><!-- TemplateEndEditable -->
+		<div id="content2" class="slide-container2" role="main">
+    
+    <!-- TemplateBeginEditable name="footer" -->
+    <div class="footer">10 of 10</div>
+    <!-- TemplateEndEditable -->
+  
+  </div>
+	
+</div>
+</body>
+</html>
