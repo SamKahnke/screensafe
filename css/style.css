@@ -184,6 +184,19 @@ header {
 	}
 }
 
+.centeredButton {
+	display: flex;
+	justify-content: center;
+}
+
+#emailSubmit {
+	border: 1px solid #444;
+	height: 25px;
+	width: 70px;
+	border-radius: 2px;
+	background-color: #36A9E1;
+}
+
 /*----------------------- Video Slide -----------------------*/
 
 
