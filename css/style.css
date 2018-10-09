@@ -86,10 +86,6 @@ header {
 	position:fixed;right:0;left:0;z-index:1030
 }
 
-.toolbar-container {
-	display: flex;
-}
-
 .navbar-nav {
 	list-style: none;
 }
@@ -121,9 +117,10 @@ header {
 .toolbar-btn:focus {
 	outline: none;
 }
-/*#topic5 {
-	padding-top: 40px;
-}*/
+#topic5 {
+	width: 100%;
+	margin: 0 auto;
+}
 #transcript-dialog {
 	font-family: Calibri, Candara, Arial, sans-serif;
 }
@@ -146,16 +143,25 @@ header {
 	
 }
 
-.nav-item {
+.navbar {
 	display: flex;
-	align-items: center;
+	flex: 1 0 auto;
+	justify-content: space-between;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
 }
 
 .nav-link {
 	display: flex;
 	align-items: center;
-	padding-top: 0;
-	padding-bottom: 0;
+	padding: 0;
+}
+
+.navbar-collapse .show, .navbar-collapse .collapsing {
+	display: flex;
+	flex: 1;
 }
 
 /*----------------------- Video Slide -----------------------*/
